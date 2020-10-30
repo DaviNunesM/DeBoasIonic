@@ -1,0 +1,63 @@
+<div style="height: 100vh;">
+
+  <ion-toolbar style="height:7vh;">
+    <ion-tabs>
+      <!-- Tab bar -->
+      <ion-tab-bar slot="top">
+        <ion-tab-button (click)="_home()" tab="voltar">
+          <ion-icon name="arrow-undo-outline"></ion-icon>
+        </ion-tab-button>
+        <ion-tab-button tab="header">
+          <strong style="font-size: x-large;">Objetivo</strong>
+        </ion-tab-button>
+        <ion-tab-button tab="estatisticas">
+          <ion-icon name="bar-chart-outline"></ion-icon>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>  
+  </ion-toolbar>
+
+  <div style="height: 100%;">
+    <ion-grid style="height: 100%;">
+      <ion-row class="background" (click)="_objetivo1()">
+        <ion-col class="vertical_central" style="padding-left: 6%;">
+          <img src="../../assets/bob4.png" alt="bob" class="bob-img">
+        </ion-col>
+        <ion-col class="vertical_central">
+          <div class="header">FICAR SUSSA</div>
+          <div class="description">Relaxar, reduzir ansiedade e o stress</div>
+        </ion-col>
+        <ion-col size="2">
+          <ion-icon name="chevron-forward-outline" style="height: 100%; width: 100%;"></ion-icon>
+        </ion-col>
+      </ion-row>
+      
+      <ion-row class="background">
+        <ion-col class="vertical_central" style="padding-left: 6%;">
+          <img src="../../assets/bob5.png" alt="bob" class="bob-img">
+        </ion-col>
+        <ion-col class="vertical_central">
+          <div class="header">OLHA A FOCA!</div>
+          <div class="description">Aumentar o foco</div>
+        </ion-col>
+        <ion-col size="2">
+          <ion-icon name="chevron-forward-outline " style="height: 100%; width: 100%;"></ion-icon>
+        </ion-col>
+      </ion-row>
+      
+      <ion-row class="background">
+        <ion-col class="vertical_central" style="padding-left: 6%;">
+          <img src="../../assets/bob6.png" alt="bob" class="bob-img">
+        </ion-col>
+        <ion-col class="vertical_central">
+          <div class="header">DORMIR DE BOAS</div>
+          <div class="description">Dormir melhor</div>
+        </ion-col>
+        <ion-col size="2">
+          <ion-icon name="chevron-forward-outline" style="height: 100%; width: 100%;"></ion-icon>
+        </ion-col>
+      </ion-row>
+      
+    </ion-grid>
+  </div>
+  </div>

@@ -1,0 +1,10 @@
+{
+  "name": "DeBoas",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
+  },
+  "type": "angular"
+}
