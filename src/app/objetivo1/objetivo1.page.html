@@ -1,19 +1,32 @@
 <div style="height: 100vh;">
-  <div class="close_icon" >
-    <ion-icon name="close-outline" class="close_icon"></ion-icon>
+  
+  <div>
+    <div class="close_icon" (click)="_objetivos()" style="height: 5%;">
+      <ion-icon name="close-outline" class="close_icon"></ion-icon>
+    </div>
   </div>
-  <img src="../../assets/bob4.png" alt="bob" class="bob-img">
-  <div style="margin-top: 10%; padding: 10%;">
-    <ion-progress-bar value="0.5"></ion-progress-bar>
+
+  <div style="height: 35%; width: auto">
+    <img src="../../assets/bob4.png" alt="bob" class="bob-img">
   </div>
-  <div class="play_icon">
-    <ion-icon name="play-outline" class="play_icon"></ion-icon>
+
+  <div style="height: 25%;">
+    <div style="margin-top: 10%; padding: 10%;">
+      <ion-progress-bar value="0.5"></ion-progress-bar>
+    </div>
+    <div class="play_icon">
+      <ion-icon name="play-outline" class="play_icon"></ion-icon>
+    </div>
   </div>
-  <div> 
-    <ion-button  class="horizontal_center" fill="outline" style="height:10vh; margin-left: 20%; margin-right: 20%;">
-      <div class="header" style="word-break: break-all;">
-        Ficar<br>Sussa
-      </div>
-    </ion-button>
+
+  <div style="height: 35%; display: inline;"> 
+    <div  class="vertical_center"> 
+      <ion-button  class="horizontal_center" fill="outline" style="height:10vh; margin-left: 20%; margin-right: 20%;">
+        <div class="header" style="word-break: break-all;">
+          Ficar<br>Sussa
+        </div>
+      </ion-button>
+    </div>
   </div>
+
 </div>
